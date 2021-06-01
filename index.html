@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./teldropdown.css">
+    <!-- <link rel="stylesheet"
+        href="https://www.jqueryscript.net/demo/jQuery-International-Telephone-Input-With-Flags-Dial-Codes/build/css/intlTelInput.css"> -->
+</head>
+
+<body>
+    <form style="margin-left:150px;">
+        <input type="tel" id="mobile-number" placeholder="e.g. +1 702 123 4567">
+    </form>
+
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="./teldropdown.js"></script>
+    <script>
+        $("#mobile-number").intlTelInput();
+    </script>
+</body>
+
+</html>
